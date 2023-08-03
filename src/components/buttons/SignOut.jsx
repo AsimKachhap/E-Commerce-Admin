@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import { signIn, signOut } from "next-auth/react";
+import { signOut } from "next-auth/react";
 
 const SignOut = () => {
   return (

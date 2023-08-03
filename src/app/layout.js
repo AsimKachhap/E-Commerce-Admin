@@ -8,7 +8,7 @@ export const metadata = {
   description: "Created by Asim Kachhap",
 };
 
-export default function RootLayout({ children, session }) {
+export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={inter.className}>{children}</body>
